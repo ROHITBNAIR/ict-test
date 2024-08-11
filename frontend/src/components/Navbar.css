@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app-header {
+    background-color: #9c27b0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-icon {
+    background-image: url('https://img.icons8.com/material-outlined/24/ffffff/home.png');
+}
+
+.add-icon {
+    background-image: url('https://img.icons8.com/material-outlined/24/ffffff/plus-math.png');
+}
